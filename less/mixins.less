@@ -3,17 +3,19 @@
 
 .btn {
   border: 1px solid gray;
-  padding: 8px;
-  width: 4px (@dk-var*2) * 9%;
+  padding: 10px;
+  width: 20px (@dk-var*2) * 9%;
 
   button.dk-btn {
     color: red;
     background: blue;
     width: (@dk-var*4) * 4%;
     margin-left: @dk-var*2%;
-  }
-  &:hover {
-    background: green;
-    color: white;
+    height: @dk-var+ (2 * (@dk-var*5%));
+
+    &:hover {
+      background: green;
+      color: white;
+    }
   }
 }
